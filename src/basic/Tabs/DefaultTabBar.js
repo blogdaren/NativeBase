@@ -1,8 +1,8 @@
-import React, { Component } from "react";
+import React from "react";
 import PropTypes from "prop-types";
 import createReactClass from "create-react-class";
 import _ from "lodash";
-import { connectStyle, StyleProvider } from "native-base-shoutem-theme";
+import { connectStyle } from "native-base-shoutem-theme";
 import mapPropsToStyleNames from "../../utils/mapPropsToStyleNames";
 import variable from "./../../theme/variables/platform";
 import { TabHeading, Text, TabContainer } from "./../../index";
