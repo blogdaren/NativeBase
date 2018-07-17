@@ -152,3 +152,4 @@ const StyledTab = connectStyle(
   mapPropsToStyleNames
 )(DefaultTabBar);
 export { StyledTab as DefaultTabBar };
+
